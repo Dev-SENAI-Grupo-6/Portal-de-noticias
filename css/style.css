@@ -8,3 +8,13 @@
 @import url('../css/card.css');
 @import url('../css/buttons.css');
 @import url('../css/footer.css');
+
+/* Sessão Mais Lidas da Semana */
+.mais_lidas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+/* Sessão Mais Lidas da Semana */
