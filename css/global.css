@@ -10,7 +10,8 @@
   box-sizing: border-box;
 }
 
-body {
+section.cards {
   font-family: var(--font-base);
-  color: var(--color-text);
+  background-color: var(--color-primary);
 }
+
