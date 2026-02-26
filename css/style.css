@@ -8,3 +8,118 @@
 @import url('../css/card.css');
 @import url('../css/buttons.css');
 @import url('../css/footer.css');
+
+body {
+  font-family: var(--font-base);
+  color: var(--color-text);
+  background-color: #1e293b;
+  color: #fff;
+  width: 100%;
+}
+/* Sessão Mais Lidas da Semana */
+.mais_lidas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mais_lidas-titulo{
+    margin-left: 32px;
+}
+
+.mais_lidas-ver-tudo{
+    margin-right: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.popularsection {
+    margin-top: 24px;
+    display: grid;  
+    justify-content: center;
+
+    grid-template-columns: repeat(4, 292px);
+    grid-template-rows: repeat(1, 234px);
+
+    gap: 16px;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.popularsection .card {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+
+    height: 160px;
+    width: 292px;
+    overflow: hidden;
+
+}
+
+.card::before {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ff0000;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1::before {
+    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.20.jpeg");
+}
+.card2::before {
+    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.21.jpeg");
+}
+.card3::before {
+    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.22.jpeg");
+}
+.card4::before {
+    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.23.jpeg");
+}
+
+
+.tag-type p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 10px;
+    line-height: 2px;
+    letter-spacing: 4%;
+    font-weight: 500;
+
+    color: white;
+    background-color: #1D4ED8;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-color: transparent;
+
+    padding: 6px 6px 6px 6px;
+
+    margin: 8px 0px 0px 8px;
+}
+
+.tag-type {
+    display: flex;
+    align-items: flex-start;
+    z-index: 1;
+}
+/* Sessão Mais Lidas da Semana */
