@@ -82,16 +82,16 @@ body {
 }
 
 .card1::before {
-    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.20.jpeg");
+    background-image: url("/assets/imagem\ \(7\).jpeg");
 }
 .card2::before {
-    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.21.jpeg");
+    background-image: url("/assets/imagem\ \(8\).jpeg");
 }
 .card3::before {
-    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.22.jpeg");
+    background-image: url("/assets/imagem\ \(9\).jpeg");
 }
 .card4::before {
-    background-image: url("/assets/WhatsApp\ Image\ 2026-02-12\ at\ 14.30.23.jpeg");
+    background-image: url("/assets/imagem\ \(10\).jpeg");
 }
 
 
