@@ -1,7 +1,7 @@
 :root {
   --color-primary: #2f80ed;
   --color-text: #333;
-  --font-base: 'Arial', sans-serif;
+  --font-base: 'Arial', Helvetica, sans-serif;
 }
 
 * {
