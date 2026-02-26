@@ -1,5 +1,5 @@
 :root {
-  --color-primary: #2f80ed;
+  --color-primary: #2f80ed
   --color-text: #333;
   --font-base: 'Arial', sans-serif;
 }
@@ -14,3 +14,4 @@ body {
   font-family: var(--font-base);
   color: var(--color-text);
 }
+
