@@ -9,12 +9,18 @@
 @import url('../css/buttons.css');
 @import url('../css/footer.css');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   font-family: var(--font-base);
   color: var(--color-text);
   background-color: #1e293b;
   color: #fff;
-  width: 100%;
+  max-width: 100%;
 }
 /* Sessão Mais Lidas da Semana */
 .mais_lidas{
@@ -30,13 +36,6 @@ body {
 .mais_lidas-ver-tudo{
     margin-right: 32px;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
 
 .popularsection {
@@ -61,8 +60,9 @@ body {
     position: relative;
     align-items: flex-start;
 
-    height: 160px;
-    width: 292px;
+    max-height: 160px;
+    min-height: 160px;
+    max-width: 292px;
     overflow: hidden;
 
 }
@@ -121,5 +121,21 @@ body {
     display: flex;
     align-items: flex-start;
     z-index: 1;
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 1270px) {
+    .popularsection{
+        grid-template-columns: repeat(2, 292px);
+        grid-template-rows: auto;
+    }
+}
+
+/* ===== CELULAR ===== */
+@media (max-width: 768px) {
+    .popularsection{
+        grid-template-columns: repeat(1, 292px);
+        grid-template-rows: auto;
+    }
 }
 /* Sessão Mais Lidas da Semana */
