@@ -2,6 +2,38 @@
   --color-primary: #2f80ed;
   --color-text: #333;
   --font-base: 'Arial', Helvetica, sans-serif;
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+  --text-color-primary: #F1F5F9;
+  --text-color-secondary: #CBD5E1;
+
+  /* Typography */
+  --font-base: 'Arquivo', sans-serif;
+  --font-heading1: 'Arquivo', sans-serif;
+  --font-heading2: 'Arquivo', sans-serif;
+  --font-heading3: 'Arquivo', sans-serif;
+  --font-span: 'Arquivo', sans-serif;
+  --font-paragraph: 'Arquivo', sans-serif;
+
+  --font-heading1-size: 16px;
+  --font-heading2-size: 14px;
+  --font-heading3-size: 14px;
+  --font-span-size: 14px;
+  --font-paragraph-size: 14px;
+
+  --font-heading1-lineheight: 135%;
+  --font-heading2-lineheight: 140%;
+  --font-heading3-lineheight: 140%;
+  --font-span-lineheight: 145%;
+  --font-paragraph-lineheight: 160%;
+
+  --font-heading1-weight: ExtraBold;
+  --font-heading2-weight: ExtraBold;
+  --font-heading3-weight: ExtraBold;
+  --font-span-weight: SemiBold;
+  --font-paragraph-weight: Regular;
 }
 
 * {
@@ -13,4 +45,5 @@
 body {
   font-family: var(--font-base);
   color: var(--color-text);
+  background-color: var(--color-background);
 }

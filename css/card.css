@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 6px;
+    gap: 32px;
+    max-width: 1216px;
+    max-height: 856px;
+    opacity: 1;
+}
+
+.item1 {
+    background-color: blueviolet;
+}
+
+<!--    width: 1216;
+        height: 856;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 32px;
+ -->
