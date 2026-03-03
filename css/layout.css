@@ -1,0 +1,22 @@
+/* ============================================================
+   LAYOUT.CSS - Estrutura de Responsividade
+   ============================================================ */
+
+/* --- Configurações Base (Mobile-First) --- */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 478px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 990px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 1440px) {}

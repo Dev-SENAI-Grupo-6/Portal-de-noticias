@@ -1,0 +1,139 @@
+/* ============================================================
+   HEADER - Baseado nos parâmetros do Figma
+   ============================================================ */
+
+.main-header {
+    background-color: var(--bg-color);
+    width: 100%;
+}
+
+/* --- Navbar Primary (Topo) --- */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+    max-width: 1280px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+/* Botões de Menu e Busca (Menu Items) */
+.btn-menu,
+.btn-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    /* Tipografia e Cores */
+    color: var(--text-color-primary);
+    font-family: var(--font-span);
+    font-size: var(--font-span-size);
+    font-weight: var(--font-span-weight);
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.btn-menu,
+.btn-search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    /* Variáveis do global */
+    font-family: var(--font-span);
+    font-weight: 600;
+    /* SemiBold do seu global */
+    font-size: var(--font-span-size);
+    line-height: var(--font-span-lineheight);
+    color: var(--text-color-primary);
+    text-transform: none;
+    /* Ajuste conforme preferência */
+}
+
+/* Logo Central */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 32px;
+    text-decoration: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo h1 {
+    font-family: var(--font-heading1);
+    font-weight: 800;
+    /* ExtraBold do seu global */
+    font-size: 24px;
+    /* Mantive os 24px do Figma pois é o tamanho real do título */
+    line-height: 1;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logo h1 span {
+    color: var(--text-color-primary);
+}
+
+/* --- Navbar Secondary (Categorias) --- */
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    max-width: 1280px;
+    height: 48px;
+    margin: 0 auto;
+    border-top: 1px solid var(--stroke-color);
+    border-bottom: 1px solid var(--stroke-color);
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+.header-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+
+    /* Variáveis do global */
+    font-family: var(--font-span);
+    font-weight: 600;
+    /* SemiBold do seu global */
+    font-size: var(--font-span-size);
+    line-height: var(--font-span-lineheight);
+    color: var(--text-color-secondary);
+
+    transition: color 0.2s;
+}
+
+.header-nav a:hover {
+    color: var(--brand-color-light);
+}
+
+/* Ajuste para ícones SVG */
+.header-top img {
+    width: 20px;
+    height: 20px;
+}
