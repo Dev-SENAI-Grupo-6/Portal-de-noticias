@@ -5,6 +5,7 @@
 .main-header {
     background-color: var(--bg-color);
     width: 100%;
+    margin-bottom: 35px;
 }
 
 /* --- Navbar Primary (Topo) --- */

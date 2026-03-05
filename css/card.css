@@ -1,8 +1,27 @@
 /* Sessão Mais Lidas da Semana */
-.mais_lidas {
+.mais-lidas {
+    margin-top: 48px;
+}
+
+.mais-lidas-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: 16px 0;
+    border-top: 1px solid #1E293B;
+}
+
+.mais-lidas-header h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #CBD5E1;
+}
+
+.mais-lidas-header a {
+    font-size: 14px;
+    color: #CBD5E1;
+    text-decoration: none;
 }
 
 .mais_lidas-titulo {
@@ -43,6 +62,14 @@
 
 }
 
+.card-text {
+    width: 264px;
+    height: 60px;
+
+    font-size: 14px;
+    line-height: 140%;
+}
+
 .card::before {
     content: "";
     display: block;
@@ -50,6 +77,7 @@
     inset: 0;
     height: 100%;
     width: 100%;
+    border-radius: 8px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
