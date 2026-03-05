@@ -1,9 +1,11 @@
-@import url('/global.css');
-@import url('/layout.css');
-@import url('/header.css');
-@import url('/hero.css');
-@import url('/card.css');
-@import url('/last_cards.css');
+@import url('global.css');
+@import url('layout.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('card.css');
+@import url('last_cards.css');
+
+@import url('layout.css');
 
 * {
     margin: 0;
